@@ -175,7 +175,7 @@ table ul{
 
 li.effect:hover {
     border-radius: 5px;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-image: linear-gradient(to left, rgb(29, 66, 190), rgba(29, 67, 190, 0.562));
     background-position: left ;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
@@ -205,23 +205,23 @@ li#skill04:hover{
 }
 
 li#skill05:hover{
-    background-size: 00% auto;
+    background-size: 40% auto;
 }
 
 li#skill06:hover{
-    background-size: 00% auto;
+    background-size: 100% auto;
 }
 
 li#skill07:hover{
-    background-size: 00% auto;
+    background-size: 50% auto;
 }
 
 li#skill08:hover{
-    background-size: 00% auto;
+    background-size: 90% auto;
 }
 
 li#skill09:hover{
-    background-size: 00% auto;
+    background-size: 100% auto;
 }
 
 /* FOOTER */
