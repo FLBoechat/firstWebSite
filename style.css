@@ -1,0 +1,286 @@
+@charset "UFT-8";
+
+:root{
+    --cor0: #0528F2;
+    --cor1: #0540F2;
+    --cor2: #3071F2;
+    --cor3: #AEC5F2;
+    --cor4: #A68A56;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+/* GENERAL */
+
+body{
+    background-image: linear-gradient(black, rgb(51, 51, 51), rgb(160, 160, 160));
+    font-family: 'League Gothic', sans-serif;
+}
+
+.left{
+    text-align: right;
+
+}
+
+.right{
+    text-align: left;
+}
+
+*{
+    line-height: 1.5em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.199);
+}
+
+p{
+    text-align: justify;
+    text-indent: 10px;
+    margin: 20px;
+}
+
+
+
+/* HEADER */
+
+header{
+    padding: 10px;
+    margin: auto;
+    background-color: var(--cor2);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.37);
+    position: sticky;
+    top: 0;
+}
+header nav{
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    text-align: right;
+    margin-right: 10px;
+}
+header a:hover{
+    color: black;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.336);
+}
+
+
+/* MAIN */
+
+main{
+    min-width: 450px;
+    max-width: 1020px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.342);
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 15px;
+
+}
+main img{
+    max-width: 100%;
+}
+h1{
+    font-size: 10em;
+    color: var(--cor2);
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    width: 50%;
+    text-align: center;
+}
+
+h2#learn{
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--cor2);
+}
+
+/* ARTICLE */
+
+article#aboutme h3{
+    margin-left: 15px;
+}
+
+article#experience h3{
+    text-align: right;
+    margin-right: 15px;
+}
+
+article#education h3{
+    text-align: left;
+    margin-left: 15px;
+}
+
+
+/* ASIDE */
+
+aside{
+    text-align: center;
+    background-color: var(--cor3);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+}
+
+aside li{
+    text-align: justify;
+
+}
+
+aside h3{
+    background-color: var(--cor2);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    font-size: medium;
+}
+
+/* LISTS */
+
+aside ul{
+    list-style-type: '\2714\0020\0020';
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    font-size: medium;
+}
+
+table ul{
+    list-style-position: inside;
+    columns: 1;
+    text-align: justify;
+    list-style-type: '\003E\0020\0020'
+}
+
+/* SKILL HOVER */
+
+li#skill00:hover{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
+    padding-left: 10px;
+    width: 50%;
+}
+
+li#skill01:hover{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
+    padding-left: 10px;
+    width: 50%;
+}
+
+li#skill02:hover{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
+    padding-left: 10px;
+    width: 50%;
+}
+
+li#skill03:hover{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
+    padding-left: 10px;
+    width: 50%;
+}
+
+li#skill04:hover{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
+    padding-left: 10px;
+    width: 50%;
+}
+
+li#skill05:hover{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 00% auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
+    padding-left: 10px;
+    width: 50%;
+}
+
+li#skill06:hover{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 00% auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
+    padding-left: 10px;
+    width: 50%;
+}
+
+li#skill07:hover{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 00% auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
+    padding-left: 10px;
+    width: 50%;
+}
+
+li#skill08:hover{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 00% auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
+    padding-left: 10px;
+    width: 50%;
+}
+
+li#skill09:hover{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 00% auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
+    padding-left: 10px;
+    width: 50%;
+}
+/* FOOTER */
+
+footer p{
+    text-align: center;
+    background-color: var(--cor2);
+    padding: 4px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.37);
+}
+
