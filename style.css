@@ -173,115 +173,57 @@ table ul{
 
 /* SKILL HOVER */
 
-li#skill00:hover{
+li.effect:hover {
     border-radius: 5px;
     background-image: linear-gradient(to left, var(--cor3), var(--cor2));
     background-position: left ;
     background-repeat: no-repeat;
-    background-size: 90% auto;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
     padding-left: 10px;
-    width: 50%;
+    width: 80%;
+}
+
+
+li#skill00:hover{
+    background-size: 90% auto;
 }
 
 li#skill01:hover{
-    border-radius: 5px;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
-    background-position: left ;
-    background-repeat: no-repeat;
     background-size: 80% auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
-    padding-left: 10px;
-    width: 50%;
 }
 
 li#skill02:hover{
-    border-radius: 5px;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
-    background-position: left ;
-    background-repeat: no-repeat;
     background-size: 50% auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
-    padding-left: 10px;
-    width: 50%;
 }
 
 li#skill03:hover{
-    border-radius: 5px;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
-    background-position: left ;
-    background-repeat: no-repeat;
     background-size: 40% auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
-    padding-left: 10px;
-    width: 50%;
 }
 
 li#skill04:hover{
-    border-radius: 5px;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
-    background-position: left ;
-    background-repeat: no-repeat;
     background-size: 40% auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
-    padding-left: 10px;
-    width: 50%;
 }
 
 li#skill05:hover{
-    border-radius: 5px;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
-    background-position: left ;
-    background-repeat: no-repeat;
     background-size: 00% auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
-    padding-left: 10px;
-    width: 50%;
 }
 
 li#skill06:hover{
-    border-radius: 5px;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
-    background-position: left ;
-    background-repeat: no-repeat;
     background-size: 00% auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
-    padding-left: 10px;
-    width: 50%;
 }
 
 li#skill07:hover{
-    border-radius: 5px;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
-    background-position: left ;
-    background-repeat: no-repeat;
     background-size: 00% auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
-    padding-left: 10px;
-    width: 50%;
 }
 
 li#skill08:hover{
-    border-radius: 5px;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
-    background-position: left ;
-    background-repeat: no-repeat;
     background-size: 00% auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
-    padding-left: 10px;
-    width: 50%;
 }
 
 li#skill09:hover{
-    border-radius: 5px;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
-    background-position: left ;
-    background-repeat: no-repeat;
     background-size: 00% auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.192);
-    padding-left: 10px;
-    width: 50%;
 }
+
 /* FOOTER */
 
 footer p{
