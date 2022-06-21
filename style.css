@@ -69,7 +69,7 @@ header a:hover{
 /* MAIN */
 
 main{
-    min-width: 450px;
+    min-width: 350px;
     max-width: 1020px;
     background-color: white;
     margin: auto;
@@ -95,6 +95,14 @@ table{
 td{
     width: 50%;
     text-align: center;
+}
+
+td#menuleft {
+    width: 25%;
+}
+
+td#menuright {
+    width: 75%;
 }
 
 h2#learn{
